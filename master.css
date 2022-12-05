@@ -1,0 +1,23 @@
+body {
+  background-color: #1e1e1e;
+  display: grid;
+  height: 100vh;
+  place-items: center;
+}
+
+.center {
+  position: relative;
+  max-width: 1px;
+  max-height: 1px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.line {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  transform-origin: top left;
+  height: 1px;
+  background-color: white;
+}
