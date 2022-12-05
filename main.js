@@ -6,7 +6,6 @@ const createLine = ({ x, y }) => {
   const rib2 = x - mainX;
   const lineWidth = Math.sqrt(Math.pow(+rib1, 2) + Math.pow(+rib2, 2));
   const radiant = Math.atan2(rib1, rib2);
-  const degree = radiant * (180 / (2 * Math.PI));
   console.log(x, y);
   console.log(mainX, mainY);
   console.log(lineWidth, "#");
